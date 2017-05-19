@@ -6,7 +6,7 @@ class Notification {
      * @param showTime (int): hoelang blijft een notification bar open in ms
      * @constructor
      */
-    constructor(containerClass, showTime = 3000) {
+    constructor(containerClass, showTime = 1000) {
         this.container = document.querySelector(containerClass);
         this.showTime = showTime;
     }
